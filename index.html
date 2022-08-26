@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Dictionary App</title>
+  </head>
+  <body>
+    <div class="main">
+      <h2>Dictionary App</h2>
+      <input type="text" placeholder="Search a word" />
+      <p class="searching-text">
+        Searching for word "<span class="searching-word"> happy </span>"
+      </p>
+      <p class="search-result"></p>
+      <div class="word">
+        <div>
+          <h4 class="word-text">happy</h4>
+          <p class="text">/hapi/</p>
+        </div>
+        <i class="fa-solid fa-volume-high"></i>
+      </div>
+      <ul>
+        <li>
+          <div class="parts-of-speech-result">
+            <h4 class="parts-of-speech">Noun</h4>
+            <p class="meaning-text">A happy event, thing, person, etc.</p>
+            <p>
+              <span class="example">Example:</span>
+              <span class="example-text">Music makes me feel happy.</span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="parts-of-speech-result">
+            <h4 class="parts-of-speech">Noun</h4>
+            <p class="meaning-text">
+              Preceded by the: happy people as a group.
+            </p>
+            <p>
+              <span class="example">Example:</span>
+              <span class="example-text">Music makes me feel happy.</span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="parts-of-speech-result">
+            <h4 class="parts-of-speech">Verb</h4>
+            <p class="meaning-text">
+              Often followed by up: to become happy; to brighten up, to cheer
+              up.
+            </p>
+            <p>
+              <span class="example">Example:</span>
+              <span class="example-text">Music makes me feel happy.</span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="parts-of-speech-result">
+            <h4 class="parts-of-speech">Adjective</h4>
+            <p class="meaning-text">
+              Having a feeling arising from a consciousness of well-being or of
+              enjoyment; enjoying good of any kind, such as comfort, peace, or
+              tranquillity; blissful, contented, joyous.
+            </p>
+            <p>
+              <span class="example">Example:</span>
+              <span class="example-text">Music makes me feel happy.</span>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
